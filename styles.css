@@ -1,0 +1,93 @@
+#home {
+  background-image: url(images/header2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  justify-content: center;
+}
+h1 {
+  margin-top: 8%;
+  font-size: 3rem;
+  color: white;
+  /* box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.5); */
+}
+/* 
+.formDiv {
+  background: rgba(0, 0, 0, 0.5);
+  margin: 8%;
+  border-radius: 9px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+}
+
+.formDiv form {
+  background: white;
+  margin: 1%;
+  border-radius: 9px;
+  display: flex;
+  justify-content: space-evenly;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+form .formGroup {
+  background: gray;
+  margin: 0 10px;
+}
+.formGroup label {
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: 0;
+  background: blue;
+}
+.formDiv form .formGroup input {
+  border: 0;
+  outline: 0;
+  padding: 3px 6px;
+  margin-top: 5px;
+  width: 80%;
+  flex-wrap: wrap;
+  background: transparent;
+}
+.formGroup input::placeholder {
+  color: gray;
+  font-size: 14px;
+} */
+.trends {
+  font-weight: 600;
+}
+.bestSeller {
+  font-weight: 600;
+}
+#bestSellerD {
+  margin-bottom: 30px;
+}
+.tourImg {
+  width: 100%;
+  border-radius: 6px 6px 0 0;
+}
+.bold {
+  font-size: 24px;
+  color: #36c2ce;
+}
+
+.noBackG {
+  background: none;
+}
+.card-header {
+  background: none;
+}
+#trending,
+#destination,
+#best-seller,
+#about {
+  background: #1f316f;
+  color: white;
+}
+.colorH {
+  color: white;
+}
+.nopadding {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}

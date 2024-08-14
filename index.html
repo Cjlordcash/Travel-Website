@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Website</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/56b74aea8c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#trending">Trending</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#best-seller">Best Seller</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#destination"> Destination</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#about">About Us</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- END OF NAVBAR -->
+
+    <section id="home">
+      <div class="px-4 pt-5 my-0 text-center">
+        <h1>Explore the beauty of nature <br />Discover the new you</h1>
+        <!-- <div class="formDiv">
+          <form action="/">
+            <div class="formGroup">
+              <label for="">Where do want to go?</label>
+              <input type="text" placeholder="Zip code" />
+            </div>
+            <div class="formGroup">
+              <label for="">Check in</label>
+              <input type="text" placeholder="Choose a date" />
+            </div>
+            <div class="formGroup">
+              <label for="">Check out</label>
+              <input type="text" placeholder="Choose a date" />
+            </div>
+            <div class="formGroup">
+              <label for="">Guest</label>
+              <input type="text" placeholder="Number of guest" />
+            </div>
+          </form>
+        </div> -->
+      </div>
+    </section>
+    <!-- Trending section -->
+
+    <section id="trending">
+      <div class="container py-5">
+        <header>
+          <div
+            class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4"
+          >
+            <span class="fs-4 trends">Trending 2024</span>
+          </div>
+        </header>
+
+        <main>
+          <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-2 noBackG">
+                  <img src="images/train.jpg" class="tourImg" alt="" />
+                </div>
+                <div class="card-body">
+                  <h2>Train Tour</h2>
+                  <span class="bold">$15/mo </span>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>Free wifi</li>
+                    <li>Free refreshment</li>
+                    <li>Free Tour guide</li>
+                    <li>Help center access</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-2 noBackG">
+                  <img src="images/hiking.jpg" class="tourImg" alt="" />
+                </div>
+                <div class="card-body">
+                  <h2>Hiking</h2>
+                  <span class="bold">$15/mo </span>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>Free wifi</li>
+                    <li>Free refreshment</li>
+                    <li>Free Tour guide</li>
+                    <li>Help center access</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-2 noBackG">
+                  <img src="images/boat.jpg" class="tourImg" alt="" />
+                </div>
+                <div class="card-body">
+                  <h2>Boat Cruise</h2>
+                  <span class="bold">$15/mo </span>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>Free wifi</li>
+                    <li>Free refreshment</li>
+                    <li>Free Tour guide</li>
+                    <li>Help center access</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </section>
+    <!-- BEST SELLING SECTION -->
+    <section id="best-seller">
+      <div class="album py-5 border-top">
+        <div class="container">
+          <header>
+            <div
+              class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4"
+            >
+              <span class="fs-4 trends">Best Seller</span>
+            </div>
+          </header>
+
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+              <div class="card shadow-sm">
+                <div class="card-header py-2 noBackG">
+                  <img src="images/dubia.jpg" class="tourImg" alt="" />
+                </div>
+                <img src="/images/destination4.jpg" alt="" />
+                <div class="card-body">
+                  <h4>maldives</h4>
+                  <p class="card-text">
+                    Where the ocean's beauty meet your soul serenity
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <div class="card-header py-2 noBackG">
+                  <img src="images/instabul.jpg" class="tourImg" alt="" />
+                </div>
+                <div class="card-body">
+                  <h4>Instabul</h4>
+                  <p class="card-text">
+                    Where engineering design was made manifest
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  ></div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <div class="card-header py-2 noBackG">
+                  <img src="images/london.jpg" class="tourImg" alt="" />
+                </div>
+                <div class="card-body">
+                  <h4>London</h4>
+                  <p class="card-text">Where beauty is found in every street</p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  ></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card shadow-sm">
+                <div class="card-header py-2 noBackG">
+                  <img src="images/london.jpg" class="tourImg" alt="" />
+                </div>
+                <div class="card-body">
+                  <h4>Austrialia</h4>
+                  <p class="card-text">The beautiful city of Austrialia</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <div class="card-header py-2 noBackG">
+                  <img src="images/destination5.jpg" class="tourImg" alt="" />
+                </div>
+                <div class="card-body">
+                  <h4>Toronto</h4>
+                  <p class="card-text">The beautiful city of toronto</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- DESTINATION SECTION -->
+    <section id="destination">
+      <div class="container py-5 border-top">
+        <header>
+          <div
+            class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4"
+          >
+            <span class="fs-4 trends">Destination</span>
+          </div>
+        </header>
+
+        <main>
+          <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-2 noBackG">
+                  <img src="images/kuwait.jpg" class="tourImg" alt="" />
+                </div>
+                <div class="card-body">
+                  <h2>Kuwait</h2>
+                  <span class="bold">$15/mo </span>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>Free wifi</li>
+                    <li>Free refreshment</li>
+                    <li>Free Tour guide</li>
+                    <li>Help center access</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-2 noBackG">
+                  <img src="images/finland.jpg" class="tourImg" alt="" />
+                </div>
+                <div class="card-body">
+                  <h2>Finland</h2>
+                  <span class="bold">$15/mo </span>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>Free wifi</li>
+                    <li>Free refreshment</li>
+                    <li>Free Tour guide</li>
+                    <li>Help center access</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-2 noBackG">
+                  <img src="images/thialand.jpg" class="tourImg" alt="" />
+                </div>
+                <div class="card-body">
+                  <h2>Thialand</h2>
+                  <span class="bold">$15/mo </span>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>Free wifi</li>
+                    <li>Free refreshment</li>
+                    <li>Free Tour guide</li>
+                    <li>Help center access</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-2 noBackG">
+                  <img src="images/saudi.jpg" class="tourImg" alt="" />
+                </div>
+                <div class="card-body">
+                  <h2>Saudi Arebia</h2>
+                  <span class="bold">$15/mo </span>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>Free wifi</li>
+                    <li>Free refreshment</li>
+                    <li>Free Tour guide</li>
+                    <li>Help center access</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-2 noBackG">
+                  <img src="images/chicago.jpg" class="tourImg" alt="" />
+                </div>
+                <div class="card-body">
+                  <h2>Chicago</h2>
+                  <span class="bold"> $15/mo </span>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>Free wifi</li>
+                    <li>Free refreshment</li>
+                    <li>Free Tour guide</li>
+                    <li>Help center access</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </section>
+    <section id="about">
+      <div class="container">
+        <footer
+          class="row row-cols-1 row-cols-sm-2 row-cols-md-3 py-5 pb-0 my-0 border-top nopadding"
+        >
+          <div class="col mb-3"></div>
+
+          <div class="col mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#home" class="nav-link p-0 colorH">Home</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#trending" class="nav-link p-0 colorH">Trending</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#best-seller" class="nav-link p-0 colorH"
+                  >Best Seller</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#destination" class="nav-link p-0 colorH"
+                  >Destination</a
+                >
+              </li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
